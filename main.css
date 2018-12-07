@@ -1,5 +1,6 @@
 body {
     overflow-x:hidden;
+    font-family: 'Ubuntu', sans-serif;
 } 
 #header {
     background:linear-gradient(rgba(0, 0, 34, 0.55), rgba(0, 0, 34, 0.55)),url("images/header.jpg");
@@ -19,20 +20,20 @@ body {
     }
 }
 .nav-link {
-    font-family:montserrat;
-    font-size:17px;
+    font-family: 'Ubuntu', sans-serif; 
+       font-size:17px;
 }
 
 .welcome_header {
 font-size:45px;
-font-family:montserrat;
+font-family: 'Ubuntu', sans-serif;
 padding-top:170px;
 text-align: center;
 }
 .welcome_header2 {
     font-size:37px;
-    font-family: montserrat; 
-    /* sailec? */
+    font-family: 'Ubuntu', sans-serif;
+        /* sailec? */
     text-align: center;
     /* padding-top:500px; */
     }
@@ -40,30 +41,30 @@ text-align: center;
 .welcome_para {
     font-size:20px;
     padding:0px 70px;
-    font-family:montserrat;
-    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+        text-align: center;
     }   
 @media (max-width:425px){
     .welcome_para {
     font-size:19px;
     padding:0px 0px;
-    font-family: montserrat;
+ font-family: 'Ubuntu', sans-serif;
     text-align: center;
     } 
 .welcome_header2 {
     font-size:25px;
-    font-family: montserrat;
+ font-family: 'Ubuntu', sans-serif;
     text-align: center;
 }    
  .welcome_header {
     font-size:39px;
-    font-family: montserrat;
+ font-family: 'Ubuntu', sans-serif;
     padding-top:80px;
     text-align: center;
  }
 }        
 .ex {
-    font-family: montserrat!important;
+    font-family: 'Ubuntu', sans-serif;
     font-size:20px !important;
 }
 
@@ -82,37 +83,40 @@ text-align: center;
     background-size:cover;
     background-attachment: fixed;
     background-position: center center;
-    height:510px;
+    height:550px;
 }  
 }
 .home_hero {
     padding-top:180px;
-    font-family:Gill sans;
+    font-family: 'Ubuntu', sans-serif;
     font-size:40px;
 }
 .home_para {
-    font-family:montserrat;
+   font-family: 'Ubuntu', sans-serif;
     font-size:20px;
+}
+.start {
+    font-family: 'Ubuntu', sans-serif;
 }
 @media (max-width:425px){
     .home_hero {
         padding-top:100px;
-        font-family:monospace;
+        font-family: 'Ubuntu', sans-serif;
         font-size:30px;
         text-align: center;
     }
     .home_para {
-        font-family: monospace;
+        font-family: 'Ubuntu', sans-serif;
         font-size:17px;
         text-align:center;
     }  
 }
 .mission {
-    font-family:montserrat;
+   font-family: 'Ubuntu', sans-serif;
     font-size:29px;
 }
 .mission_para {
-    font-family:montserrat;
+   font-family: 'Ubuntu', sans-serif;
     font-size:16px;
 }
 .icon {
@@ -122,17 +126,17 @@ text-align: center;
     /* border:1px solid blac */
 }
 .about_para {
-    font-family:montserrat;
+   font-family: 'Ubuntu', sans-serif;
     font-size:25px;
     line-height: 40px !important;
 }
 .about_header {
-    font-family:montserrat;
+   font-family: 'Ubuntu', sans-serif;
     font-size:38px;
 }
 @media (max-width:425px){
     .about_para {
-        font-family:montserrat;
+       font-family: 'Ubuntu', sans-serif;
         font-size:25px;
         line-height: 35px;
         text-align:center;
@@ -140,7 +144,7 @@ text-align: center;
 }
 @media (min-width:768px){
     .about_para {
-        font-family:montserrat;
+       font-family: 'Ubuntu', sans-serif;
         font-size:25px;
         line-height: 35px;
         text-align:center;
@@ -151,7 +155,7 @@ text-align: center;
 }
 @media (min-width:1024px){
     .about_para {
-        font-family:montserrat;
+       font-family: 'Ubuntu', sans-serif;
         font-size:25px;
         line-height: 57px !important;
         text-align:center;
@@ -170,19 +174,19 @@ text-align: center;
 }
 .services {
     text-align:center;
-    font-family:montserrat;
+   font-family: 'Ubuntu', sans-serif;
     font-size:36px;
     padding:15px 0px;
     color:white;
 }
 .service_header {
-    font-family:montserrat;
+   font-family: 'Ubuntu', sans-serif;
     font-size:29px;
     padding:10px 0px;
     color:white;
 }
 .service_para {
-    font-family:montserrat;
+   font-family: 'Ubuntu', sans-serif;
     font-size:14px;
     color:white;
 }
@@ -192,7 +196,7 @@ text-align: center;
     /* padding:50px 0px 50px 0px ; */
     background-attachment: fixed;
     background-position: center center;
-    height:550px;
+    height:auto;
 }
 @media(max-width:425px) {
     #service {
@@ -200,7 +204,7 @@ text-align: center;
     }
     .team {
         text-align:center !important;
-        font-family:montserrat;
+       font-family: 'Ubuntu', sans-serif;
         font-size:32px !important;
         padding-top:15px;
         text-transform: capitalize;
@@ -208,13 +212,13 @@ text-align: center;
 }
 .team {
     text-align:center;
-    font-family:montserrat;
+   font-family: 'Ubuntu', sans-serif;
     font-size:36px;
     padding-top:15px;
     text-transform: capitalize;
 }
 .team_para {
-        font-family:montserrat;
+       font-family: 'Ubuntu', sans-serif;
         font-size:17px;
         text-align: center;
 }
@@ -236,7 +240,7 @@ text-align: center;
 } 
 .main1 {
     padding-top:100px !important;
-    font-family:montserrat;
+   font-family: 'Ubuntu', sans-serif;
 }
 .social {
     font-size:25px;
@@ -255,18 +259,19 @@ text-align: center;
     height:657px;
 }
 .contact_header {
-    font-family: serif;
+   font-family: 'Ubuntu', sans-serif;
+
     font-size:35px;
     padding-top:50px;
     color:white;
 }
 .contact_para {
-    font-family:serif;
+  font-family: 'Ubuntu', sans-serif;
     font-size:20px;
     color:white;
 }
 .contact_label {
-    font-family:serif !important;
+  font-family: 'Ubuntu', sans-serif;
     font-size:17px !important;
     color:white;
 }
@@ -286,7 +291,7 @@ text-align: center;
  #sub_links {
      background-color:rgb(36, 35, 35);
      color:white;
-     font-family:serif;
+   font-family: 'Ubuntu', sans-serif;
  }
  ul li {
      list-style-type:none;
@@ -314,48 +319,85 @@ text-align: center;
         height:500px;
     }
     .clients_para {
-        font-family: serif;
+       font-family: 'Ubuntu', sans-serif;
+
         font-size:17px;
         padding:0px 0px !important;
         text-align:center;
     }
     .clients_header {
-        font-family: serif;
+       font-family: 'Ubuntu', sans-serif;
+
         font-size:23px !important;
         text-align:center;
         padding:40px 0px 10px 0px !important;
     }
     .clients_hero {
         padding-top:70px !important;
-        font-family: serif;
+       font-family: 'Ubuntu', sans-serif;
+
         font-size:30px !important;
     }
 }
 .clients_hero {
     padding-top:180px;
-    font-family: serif;
+   font-family: 'Ubuntu', sans-serif;
+
     font-size:40px;
 }
 .clients_heropara {
-    font-family: serif;
+   font-family: 'Ubuntu', sans-serif;
+
     font-size:20px;
 }
 .clients_header {
-    font-family: serif;
+   font-family: 'Ubuntu', sans-serif;
+
     font-size:28px;
     text-align:center;
     padding:100px 0px 20px 0px;
 }
 .clients_para {
-    font-family: serif;
+   font-family: 'Ubuntu', sans-serif;
+
     font-size:18px;
     padding:0px 50px;
     text-align:center;
 }
 .client_logo {
-    width:150px;
+    width:200px;
     filter: grayscale(5);
+    opacity: 1;
+    display: block;
+    /* width: 100%; */
+    /* height: auto; */
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .trial:hover .image {
+    opacity: 0.3;
+  }
+  
+  .trial:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
 .client_logo:hover {
     transition:ease-in-out 0.5s;
     filter:grayscale(0);
@@ -363,12 +405,12 @@ text-align: center;
 }
 .call {
     text-align: center;
-    font-family:serif;
+  font-family: 'Ubuntu', sans-serif;
     font-size:22px;
 }
 .call_link {
     text-align: center;
-    font-family:serif;
+  font-family: 'Ubuntu', sans-serif;
     font-size:22px;
     color:#a0630a;
     padding-bottom:50px;
@@ -384,14 +426,30 @@ text-align: center;
 
 
     .blog-header {
-        font-family: montserrat;
-        font-size:25px;
+    font-family: 'Ubuntu', sans-serif !important;
+    font-size:25px;
     }
     .blog-para {
-        font-family: montserrat;
+        font-family: 'Ubuntu', sans-serif !important;
         font-size:16px;
     }
     .read {
         bottom:15px !important;
         position: relative;
+    }
+
+
+
+    /* styles for blogpost page */
+    .candy {
+        font-family: 'Ubuntu', sans-serif;
+       line-height: 35px;
+       /* font-size:22px; */
+    }
+    .candy-header {
+        font-family: 'Ubuntu', sans-serif;
+        
+    }
+    .drop {
+        font-family: 'Ubuntu', sans-serif;
     }
